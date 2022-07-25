@@ -13,9 +13,9 @@
         $result->bind_param("sss", $name, $email, $message);
         $result->execute();
         if($result->affected_rows > 0){
-            header('Location: http://'.$_SERVER['HTTP_HOST'].'/index.php?resp=1');
+            header('Location: https://'.$_SERVER['HTTP_HOST'].'/index.php?resp=1');
         } else{
-            header('Location: http://'.$_SERVER['HTTP_HOST'].'/index.php?resp=0');
+            header('Location: https://'.$_SERVER['HTTP_HOST'].'/index.php?resp=0');
         }
     } catch (Exception $e) {
         header('Location: http://'.$_SERVER['HTTP_HOST'].'/index.php?resp=0&exception='.$e->getMessage());
