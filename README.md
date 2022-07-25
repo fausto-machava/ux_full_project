@@ -7,7 +7,7 @@
  1. Clone the project to your computer  
  2. Copy to the project to your localhost web root folder
  3. Open file conection.php, and update the connection data passing your database host, user, password and database name
- 4. Then open go to the browser and type http://localhost/contact
+ 4. Then open your browser and open http://localhost/contact
 
 When opening the folder you wil find to find see this:
 ![Home page](print.png)
